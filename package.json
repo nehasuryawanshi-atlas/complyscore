@@ -2,13 +2,14 @@
   "name": "complyscore-msb",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:7139",
+  "proxy": "http://localhost:38235",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.16",
     "@mui/material": "^5.14.16",
     "@mui/styled-engine-sc": "^6.0.0-alpha.4",
+    "@mui/x-data-grid": "^6.18.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -47,6 +48,5 @@
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
-   
   }
 }

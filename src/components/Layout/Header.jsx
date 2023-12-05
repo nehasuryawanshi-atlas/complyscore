@@ -7,7 +7,7 @@ import PersonIcon from "@mui/icons-material/Person";
 
 export const Header = () => {
   return (
-    <div className="bg-neutral-600 h-12 px-4 flex justify-between items-center">
+    <div className=" bg-neutral-600 h-12 px-4 flex justify-between items-center">
       <div className="relative flex flex-row text-white">
         <MenuIcon style={{marginTop:"10px"}}/>
         <p style={{marginLeft:"10px",fontWeight:"bold",fontSize:"26px",color: "#639fe8"}}>Complyscore</p>

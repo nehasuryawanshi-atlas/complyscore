@@ -6,10 +6,10 @@ import { Header } from "./Header";
 export const Layout = () => {
   return (
     <>
-      <div>
+      <div className="sticky top-0">
         <Header />
       </div>
-      <div className="flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden">
+      <div className="flex flex-row bg-neutral-100 h-screen">
         <Sidebar />
         <div className="p-4">
           <div>{<Outlet />}</div>

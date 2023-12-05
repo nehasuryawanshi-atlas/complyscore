@@ -13,7 +13,7 @@ function App() {
           <Route path="/" exact element={<Layout />}>
             <Route index element={<Dashboard />} />
             <Route path="vendor" element={<Vendor />} />
-            <Route path="assessment" element={<Assessement />} />
+            <Route path="assessment" element={<Assessement />} />           
           </Route>
         </Routes>
       </BrowserRouter>
