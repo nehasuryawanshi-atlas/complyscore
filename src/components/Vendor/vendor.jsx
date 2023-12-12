@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Breadcrumb } from "../Layout/Breadcrumb";
-import { Button, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import { variables } from "../Variable";
 import { DataGrid } from "@mui/x-data-grid";
 import Box from "@mui/material/Box";
@@ -54,11 +54,7 @@ export const Vendor = () => {
         <Typography color="primary" fontSize="0.75rem">
           Vendor{" "}
         </Typography>
-      </div>
-      <div>
-       <Button color="primary">All</Button>
-       <Button>By Me</Button>
-      </div>
+      </div>      
       <Box sx={{ height: 450, mt: 5 }}>
         <DataGrid
           sx={{ border: "1px solid gray", boxShadow: "0 0 8px 0 gray" }}
